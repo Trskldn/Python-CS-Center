@@ -72,7 +72,9 @@ fabric.properties
 .idea/caches/build_file_checksums.ser
 /.idea/
 /__pychache__/
+# ignore files in folder dummy_data
 dummy_data/*
-!dummy_data/ .gitkeep
+# but please keep the folder
+!dummy_data/ .keep
 
 /.ipynb_checkpoints/
